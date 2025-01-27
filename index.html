@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login MultiStep</title>
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container"><!-- container -->
+    <div class="login-box"><!-- login-box -->
+      <form action="#"><!-- form -->
+        <div class="page-box">
+        <div class="login-title"><!-- login-title -->
+          <h2>Login</h2>
+          <p>Por favor, efetue o login para usar a plataforma!</p>
+        </div><!-- login-title -->
+
+        <div class="page email-page"><!-- page email-->
+          <div class="input-box">
+            <input type="text" class="email" required>
+            <label>Digite o email</label>
+          </div>
+
+          <div class="forgot"><!-- forgot -->
+            <a href="#">Esqueceu o e-mail?</a>
+          </div><!-- forgot -->
+
+          <div class="guest-mode"><!-- guest-mode -->
+            <p>Está usando um dispositivo compartilhado? Experimente o <b>Modo Convidado</b></p>
+            <a href="#">Saiba mais</a>
+          </div><!-- guest-mode -->
+
+          <div class="btn-box">
+            <a href="#">Criar conta</a>
+            <button class="btn-next">Próximo</button>
+          </div>
+        </div><!-- page email -->
+
+        <div class="page password-page"><!-- page email-->
+          <div class="input-box">
+            <input type="password" class="password" required>
+            <label>Digite o senha</label>
+          </div>
+        
+          <div class="forgot show"><!-- forgot -->
+            <a href="#"> Esqueceu a senha?</a>
+            <label><input type="checkbox" class="checkbox-pass">Exibir a senha</label>
+          </div><!-- forgot -->
+
+          <div class="btn-box">
+            <button class="btn-back">Voltar</button>
+            <button class="btn-next">Próximo</button>
+          </div>
+        </div><!-- page email -->
+        </div>
+      </form><!-- form -->
+    </div><!-- login-box -->
+  </div><!-- container -->
+  <script src="script.js"></script>
+</body>
+</html>
